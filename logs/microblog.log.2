@@ -1,4 +1,4 @@
-2023-03-03 12:03:54,348 ERROR: Exception on /register [POST] [in /Users/miportnoy/Documents/GitHub/microblogfinal/venv/lib/python3.10/site-packages/flask/app.py:1744]
+2023-03-03 12:06:11,187 ERROR: Exception on /register [POST] [in /Users/miportnoy/Documents/GitHub/microblogfinal/venv/lib/python3.10/site-packages/flask/app.py:1744]
 Traceback (most recent call last):
   File "/Users/miportnoy/Documents/GitHub/microblogfinal/venv/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1964, in _exec_single_context
     self.dialect.do_execute(
@@ -62,5 +62,6 @@ sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: user
 FROM user 
 WHERE user.username = ?
  LIMIT ? OFFSET ?]
-[parameters: ('miportnoy', 1, 0)]
+[parameters: ('john', 1, 0)]
 (Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-03-03 12:07:31,324 INFO: Microblog startup [in /Users/miportnoy/Documents/GitHub/microblogfinal/app/__init__.py:47]
